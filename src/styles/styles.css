@@ -53,7 +53,8 @@ img {
 }
 
 .main {
-  padding: 120px;
+  padding: 120px 120px 0;
+  background-color: #ffffff;
 }
 
 .section {
@@ -270,7 +271,19 @@ img {
 
 .how-to-buy__txt {
   flex-basis: 50%;
-  margin-bottom: 40px;
 }
 
 /* #endregion how-to-buy */
+
+/* #region footer */
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 460px;
+  background-image: url(/src/img/footer-bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* #endregion footer */
