@@ -1,2 +1,2 @@
-# bose-landing
+# BOSE Landing Page
  
