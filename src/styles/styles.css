@@ -64,6 +64,26 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .main {
+    padding: 100px 72px 0;
+  }
+
+  .section {
+    padding: 0 0 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .main {
+    padding: 80px 10px 0;
+  }
+
+  .section {
+    padding: 0 0 80px;
+  }
+}
+
 /* #region header */
 
 .header {
@@ -95,6 +115,29 @@ img {
   line-height: 100%;
   letter-spacing: -1.5px;
   margin-top: 40px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .header {
+    padding: 64px 72px;
+  }
+
+  .main__heading {
+    font-size: 40px;
+    margin-top: 40px;
+    width: 392px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header {
+    padding: 64px 10px;
+  }
+  .main__heading {
+    font-size: 32px;
+    margin-top: 40px;
+    width: 274px;
+  }
 }
 
 /* #endregion header */
@@ -187,6 +230,19 @@ img {
   line-height: 140%;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .recommended__heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .recommended__heading {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+}
+
 /* #endregion recommended */
 
 /* #region categories */
@@ -233,6 +289,29 @@ img {
   width: 32%;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .categories__heading {
+    font-size: 40px;
+    width: 392px;
+  }
+
+  .categories__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .categories__heading {
+    font-size: 32px;
+    width: 280px;
+    margin-bottom: 48px;
+  }
+
+  .categories__title {
+    font-size: 16px;
+  }
+}
+
 /* #endregion categories */
 
 /* #region how-to-buy */
@@ -242,11 +321,13 @@ img {
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -1.5px;
+  margin-bottom: 32px;
 }
 
 .how-to-buy__items {
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   gap: 24px;
   justify-content: space-between;
 }
@@ -273,6 +354,29 @@ img {
   flex-basis: 50%;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .how-to-buy__heading {
+    font-size: 40px;
+  }
+
+  .how-to-buy__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .how-to-buy__heading {
+    font-size: 32px;
+  }
+
+  .how-to-buy__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
 /* #endregion how-to-buy */
 
 /* #region footer */
