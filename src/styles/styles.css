@@ -201,6 +201,23 @@ img {
   --_s: 0.3s;
 }
 
+.menu-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(/src/img/Icon-Burger-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-property: background-image;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-icon:hover {
+  background-image: url(/src/img/Icon-Burger-menu-hover-grey.svg);
+}
+
 .menu__close-icon,
 .header__burger-icon {
   fill: #292929;
@@ -227,6 +244,18 @@ img {
 
   .header__burger-icon {
     fill: #999999;
+  }
+
+  .menu-icon {
+    background-image: url(/src/img/Icon-Burger-menu-grey.svg);
+  }
+
+  .menu-icon:hover {
+    background-image: url(/src/img/Icon-Burger-menu-hover-grey.svg);
+  }
+
+  .sound-waves-img {
+    display: none;
   }
 }
 
