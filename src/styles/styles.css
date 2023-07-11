@@ -368,6 +368,7 @@ img {
 
 .categories__item__img-large {
   width: 65%;
+  object-fit: cover;
 }
 
 .categories__item__img-small {
@@ -394,6 +395,14 @@ img {
 
   .categories__title {
     font-size: 16px;
+  }
+
+  .categories__item__img-large {
+    width: 48.5%;
+  }
+
+  .categories__item__img-small {
+    width: 48.5%;
   }
 }
 
